@@ -440,6 +440,7 @@
     <Content Include="Views\Partials\TypedGrid\Rows\BlueLeetDefault.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Rows\Default.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Sections\Default.cshtml" />
+    <Content Include="Views\MacroPartials\Jumbotron.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

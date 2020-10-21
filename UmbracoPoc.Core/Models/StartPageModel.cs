@@ -5,7 +5,7 @@ using Umbraco.Core.Models.PublishedContent;
 
 namespace UmbracoPoc.Core.Models
 {
-    [ContentType(DisplayName = "Sida: Start", Icon = Icon.Home, AllowAtRoot = true, Variations = ContentVariation.Culture, Description = "", PropertySortMode = PropertySortMode.LocalFirst)]
+    [ContentType(DisplayName = "Sida: Start", Icon = Icon.Home, AllowAtRoot = true, Variations = ContentVariation.Nothing, Description = "", PropertySortMode = PropertySortMode.LocalFirst)]
     public class StartPageModel : BaseContentModel
     {
         public StartPageModel(IPublishedContent content) : base(content)

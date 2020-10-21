@@ -257,6 +257,7 @@
     <Compile Include="Converters\MediaConverter.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DataTypes\GridFrontPage.cs" />
+    <Compile Include="Macros\Jumbotron.cs" />
     <Compile Include="Models\BaseContentModel.cs" />
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\StartPageModel.cs" />
@@ -271,7 +272,6 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Dictionaries\" />
-    <Folder Include="MacroTypes\" />
     <Folder Include="MediaTypes\" />
     <Folder Include="MemberTypes\" />
   </ItemGroup>
