@@ -47,17 +47,17 @@
     <Reference Include="AngleSharp, Version=0.9.9.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\AngleSharp.0.9.11\lib\net45\AngleSharp.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.Common, Version=0.5.7.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Common.0.5.7\lib\net472\BlueLeet.Common.dll</HintPath>
+    <Reference Include="BlueLeet.Common, Version=0.5.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Common.0.5.8\lib\net472\BlueLeet.Common.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.Core, Version=0.5.69.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Core.0.5.69\lib\net472\BlueLeet.Core.dll</HintPath>
+    <Reference Include="BlueLeet.Core, Version=0.5.71.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Core.0.5.71\lib\net472\BlueLeet.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UCodeFirst.Core.0.20.1\lib\net472\BlueLeet.UCodeFirst.dll</HintPath>
+    <Reference Include="BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UCodeFirst.Core.0.20.6\lib\net472\BlueLeet.UCodeFirst.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UWeb.0.1.69\lib\net45\BlueLeet.UWeb.dll</HintPath>
+    <Reference Include="BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UWeb.0.1.70\lib\net45\BlueLeet.UWeb.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Castle.Core.4.0.0\lib\net45\Castle.Core.dll</HintPath>
@@ -67,6 +67,9 @@
     </Reference>
     <Reference Include="ClientDependency.Core.Mvc, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\ClientDependency-Mvc5.1.9.3\lib\net45\ClientDependency.Core.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Confuser.Runtime, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5fbc98a9d8494c64, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UWeb.0.1.70\lib\net45\Confuser.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Contrib.Regex, Version=2.9.4.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Lucene.Net.Contrib.2.9.4.1\lib\net40\Contrib.Regex.dll</HintPath>
@@ -430,6 +433,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
