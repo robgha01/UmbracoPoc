@@ -85,42 +85,40 @@ Umbraco.Core.Migrations.Upgrade.V_8_0_0.VariantsMigration, Umbraco.Core, Version
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.ContentVariationMigration, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.DataTypes.PreValueMigratorComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Services.Implement.KeyValueService+InitializeMigration, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UWeb.Controllers.SurfaceControllers.JsonHelperController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ApplicationComposer, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Stylesheets.StylesheetsManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.RazorViews.RazorTemplatesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.MemberTypes.MemberTypesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.MemberTypes.UCodeFirstUnmappedMediaType, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.MediaTypes.MediaTypesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Macros.MacrosManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Dictionaries.DictionariesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.DataTypes.DataTypesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.AttemptingConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.AttemptingDependencyConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.BooleanConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.ColorConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.ContentTypeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DateTimeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DecimalConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DoubleConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.EnumerableConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.FloatConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.HtmlStringConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.Int32Converter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.MacroContainerConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.MediaTypeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.NoConversionConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.PublishedContentConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.StringConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.XDocumentConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Controllers.UCodeFirstController, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ContentTypes.UCodeFirstUnmappedContentType, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ContentTypes.ContentTypesManager, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Cache.UCodeFirstMediaTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Cache.UCodeFirstContentTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ApplicationComposer, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Stylesheets.StylesheetsManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.RazorViews.RazorTemplatesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.MemberTypes.MemberTypesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.MemberTypes.UCodeFirstUnmappedMediaType, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.MediaTypes.MediaTypesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Macros.MacrosManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Dictionaries.DictionariesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.DataTypes.DataTypesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.AttemptingConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.AttemptingDependencyConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.BooleanConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.ColorConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.ContentTypeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DateTimeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DecimalConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DoubleConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.EnumerableConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.FloatConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.HtmlStringConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.Int32Converter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.MacroContainerConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.MediaTypeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.NoConversionConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.PublishedContentConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.StringConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.XDocumentConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Controllers.UCodeFirstController, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ContentTypes.UCodeFirstUnmappedContentType, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ContentTypes.ContentTypesManager, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Cache.UCodeFirstMediaTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Cache.UCodeFirstContentTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+Skybrud.Umbraco.GridData.GridPropertyValueConverter, Skybrud.Umbraco.GridData, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbProfileController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginStatusController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbRegisterController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -324,13 +322,15 @@ Umbraco.Web.Cache.MemberGroupCacheRefresher, Umbraco.Web, Version=8.0.0.0, Cultu
 Umbraco.Web.Cache.PublicAccessCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.TemplateCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.UserCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.JsonHelperController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.ModelsBuilderDashboard, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.Compose.ModelsBuilderComposer, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.MediaTypeModelValidator, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.MemberTypeModelValidator, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.ModelsBuilderDashboardController, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.ContentTypeModelValidator, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Skybrud.Umbraco.GridData.GridPropertyValueConverter, Skybrud.Umbraco.GridData, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Core.Composing.IComposer
 
@@ -341,7 +341,7 @@ Umbraco.Core.Compose.RelateOnCopyComposer, Umbraco.Core, Version=8.0.0.0, Cultur
 Umbraco.Core.Compose.RelateOnTrashComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Runtime.CoreInitialComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.Migrations.Upgrade.V_8_0_0.DataTypes.PreValueMigratorComposer, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ApplicationComposer, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ApplicationComposer, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.SignalR.PreviewHubComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Runtime.WebInitialComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Runtime.WebFinalComposer, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -384,6 +384,7 @@ Umbraco.Core.PropertyEditors.ValueConverters.TextStringValueConverter, Umbraco.C
 Umbraco.Core.PropertyEditors.ValueConverters.TinyMceValueConverter, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.PropertyEditors.ValueConverters.UploadPropertyConverter, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Core.PropertyEditors.ValueConverters.YesNoValueConverter, Umbraco.Core, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+Skybrud.Umbraco.GridData.GridPropertyValueConverter, Skybrud.Umbraco.GridData, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PropertyEditors.ValueConverters.BlockListPropertyValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PropertyEditors.ValueConverters.MultiUrlPickerValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PropertyEditors.ValueConverters.FlexibleDropdownPropertyValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -396,25 +397,23 @@ Umbraco.Web.PropertyEditors.ValueConverters.ContentPickerValueConverter, Umbraco
 Umbraco.Web.PropertyEditors.ValueConverters.MarkdownEditorValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PropertyEditors.ValueConverters.TextStringValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.PropertyEditors.ValueConverters.RteMacroRenderingValueConverter, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
-Skybrud.Umbraco.GridData.GridPropertyValueConverter, Skybrud.Umbraco.GridData, Version=3.0.1.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.Mvc.PluginController
 
-BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbProfileController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginStatusController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbRegisterController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.Mvc.IRenderMvcController
 
-BlueLeet.UCodeFirst.Controllers.UCodeFirstController, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Controllers.UCodeFirstController, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Mvc.RenderMvcController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.WebApi.UmbracoApiController
 
-BlueLeet.UWeb.Controllers.SurfaceControllers.JsonHelperController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Trees.LogViewerTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Trees.FilesTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Trees.ContentBlueprintTreeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -487,16 +486,17 @@ Umbraco.Web.Editors.ContentTypeController, Umbraco.Web, Version=8.0.0.0, Culture
 Umbraco.Web.Editors.MediaTypeController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.SectionController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Editors.MediaController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.JsonHelperController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
 Umbraco.ModelsBuilder.Embedded.BackOffice.ModelsBuilderDashboardController, Umbraco.ModelsBuilder.Embedded, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Web.Mvc.SurfaceController
 
-BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbProfileController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginStatusController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbRegisterController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Controllers.UmbLoginController, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.AjaxHelperController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UWeb.Controllers.SurfaceControllers.ConfigSurfaceController, BlueLeet.UWeb, Version=0.1.70.0, Culture=neutral, PublicKeyToken=null
 
 Umbraco.Core.Dashboards.IDashboard
 
@@ -556,8 +556,8 @@ Umbraco.Web.PropertyEditors.ParameterEditors.PropertyTypeParameterEditor, Umbrac
 
 Umbraco.Core.Cache.ICacheRefresher
 
-BlueLeet.UCodeFirst.Cache.UCodeFirstMediaTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Cache.UCodeFirstContentTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Cache.UCodeFirstMediaTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Cache.UCodeFirstContentTypeCacheRefresher, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.ContentCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.UserGroupCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
 Umbraco.Web.Cache.UserGroupPermissionsCacheRefresher, Umbraco.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null
@@ -644,37 +644,37 @@ BlueLeet.UCodeFirst.Structure.Registry
 
 BlueLeet.UCodeFirst.Converters.IConverter
 
-BlueLeet.UCodeFirst.Converters.AttemptingConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.AttemptingDependencyConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.BooleanConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.ColorConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.ContentTypeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DateTimeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DecimalConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.DoubleConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.EnumerableConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.FloatConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.HtmlStringConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.Int32Converter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.MacroContainerConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.MediaTypeConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.NoConversionConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.PublishedContentConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.StringConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.Converters.XDocumentConverter, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.AttemptingConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.AttemptingDependencyConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.BooleanConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.ColorConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.ContentTypeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DateTimeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DecimalConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.DoubleConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.EnumerableConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.FloatConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.HtmlStringConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.Int32Converter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.MacroContainerConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.MediaTypeConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.NoConversionConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.PublishedContentConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.StringConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.Converters.XDocumentConverter, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 
-BlueLeet.UCodeFirst.RazorViews.Abstraction.IUCodeFirstViewModel`1[[BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null]]
+BlueLeet.UCodeFirst.RazorViews.Abstraction.IUCodeFirstViewModel`1[[BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null]]
 
-BlueLeet.UCodeFirst.DefaultUCodeFirstViewModel, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.DefaultUCodeFirstViewModel, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 
 BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase
 
-BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
-BlueLeet.UCodeFirst.ContentTypes.UCodeFirstUnmappedContentType, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ContentTypes.UCodeFirstContentTypeBase, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.ContentTypes.UCodeFirstUnmappedContentType, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 
 BlueLeet.UCodeFirst.MediaTypes.UCodeFirstMediaTypeBase
 
-BlueLeet.UCodeFirst.MemberTypes.UCodeFirstUnmappedMediaType, BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, PublicKeyToken=null
+BlueLeet.UCodeFirst.MemberTypes.UCodeFirstUnmappedMediaType, BlueLeet.UCodeFirst, Version=0.20.6.0, Culture=neutral, PublicKeyToken=null
 
 BlueLeet.UCodeFirst.DataTypes.DataTypeBase
 
