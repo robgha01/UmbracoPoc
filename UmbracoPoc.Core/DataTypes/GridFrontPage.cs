@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using BlueLeet.UCodeFirst.DataTypes;
-using BlueLeet.UCodeFirst.Structure.Entities.GridSets;
 using Umbraco.Core.Models;
+using Umbraco.Web.PropertyEditors;
 
 namespace UmbracoPoc.Core.DataTypes
 {
@@ -19,7 +19,7 @@ namespace UmbracoPoc.Core.DataTypes
         /// </param>
         public GridFrontPage(IDictionary<string, object> existingPreValues) : base(existingPreValues)
         {
-            var config = new Umbraco.Web.PropertyEditors.GridConfiguration();
+            var config = new GridConfiguration();
 
         }
     }
@@ -36,7 +36,7 @@ namespace UmbracoPoc.Core.DataTypes
             Configuration = configuration;
         }
 
-        public Umbraco.Web.PropertyEditors.GridConfiguration Configuration { get; }
+        public GridConfiguration Configuration { get; }
 
 
     }

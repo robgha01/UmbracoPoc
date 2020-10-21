@@ -1,0 +1,51 @@
+﻿@using Skybrud.Umbraco.GridData.Extensions
+@using UmbracoPoc.Core.Models
+@inherits UmbracoViewPage<BaseContentModel>
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html>
+<head lang="@Model.CurrentCulture.TwoLetterISOLanguageName" data-culture="@Model.CurrentCulture.Name">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="@Model.MetaDescription">
+    <meta name="keywords" content="@Model.MetaKeywords" />
+
+    <title>@(string.IsNullOrEmpty(Model.BrowserTabText) ? Model.Name : Model.BrowserTabText)</title>
+</head>
+<body>
+    @if (Model.AppContext.UserHelper.IsAuthenticated())
+    {
+        <widget-quick-navigator></widget-quick-navigator>
+    }
+    @if (IsSectionDefined("FullSite"))
+    {
+        @RenderSection("FullSite", false)
+    }
+    else
+    {
+        if (IsSectionDefined("FullContent"))
+        {
+            @RenderSection("FullContent", false)
+            @RenderBody()
+        }
+        else
+        {
+            @Html.Partial("~/Views/Partials/_Header.cshtml", Model)
+            <div class="container">
+                @RenderSection("MainContent", false)
+                @Html.GetTypedGridHtml(Model.Content, "GridFrontPage", "ContentArea")
+                @RenderBody()
+            </div>
+        }
+
+        <footer>Footer</footer>
+    }
+    @RenderSection("scripts", false)
+</body>
+</html>
