@@ -262,6 +262,7 @@
     <Compile Include="Models\BaseModel.cs" />
     <Compile Include="Models\StartPageModel.cs" />
     <Compile Include="Models\Tab.cs" />
+    <Compile Include="PartialViewMacroPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UCodeFirstRegistry.cs" />
   </ItemGroup>
