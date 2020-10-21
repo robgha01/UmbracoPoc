@@ -1,18 +1,16 @@
 ﻿@using Skybrud.Umbraco.GridData
-@using Skybrud.Umbraco.GridData.Extensions
-@using SpecialistPortalen.Web.Extensions
 @inherits UmbracoViewPage<GridRow>
 
 <div class="row">
     @foreach (GridArea area in Model.Areas)
     {
-        <div class="col-md-@area.Grid column" @area.RenderElementAttributes()>
+        <div class="col-md-@area.Grid column" @*@area.RenderElementAttributes()*@>
             @foreach (GridControl control in area.Controls)
             {
                 @* reference: http://grid.skybrud.dk/ *@
                 switch (control.Editor.Alias)
                 {
-                    case UComponentsConstants.GridEditors.GoogleMapsAlias:
+                    @*case UComponentsConstants.GridEditors.GoogleMapsAlias:
                         @Html.RenderGridControl(control, "TypedGrid/Editors/BlueLeet.UComponents/GoogleMaps")
                         break;
                     case UComponentsConstants.GridEditors.GoToTopAlias:
@@ -32,9 +30,9 @@
                         break;
                     case UComponentsConstants.GridEditors.QuoteAlias:
                         @Html.RenderGridControl(control, "TypedGrid/Editors/BlueLeet.UComponents/Quote")
-                        break;
+                        break;*@
                     default:
-                        var viewName = control.Editor.Alias;
+                        @*var viewName = control.Editor.Alias;
                         var altPath = string.Empty;
                         if (!string.IsNullOrEmpty(control.Editor.Render))
                         {
@@ -67,7 +65,7 @@
                         {
                             @Html.RenderGridControl(control, string.Format("TypedGrid/Editors/{0}", viewName))
                             break;
-                        }
+                        }*@
 
                         @Html.Partial("grid/editors/base", control.JObject)
                         break;

@@ -436,20 +436,9 @@
     <Content Include="Views\Partials\TypedGrid\Bootstrap3-Fluid.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Bootstrap3.cshtml" />
     <Content Include="Views\Partials\TypedGrid\ContentArea.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\Card.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\GoogleMaps.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\GoToTop.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\Headline.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\HeadlineLead.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\ImageText.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\Quote.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Editors\BlueLeet.UComponents\Separator.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Fanoe.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Rows\BlueLeetDefault.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Rows\Default.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Rows\List.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Rows\ListHeader.cshtml" />
-    <Content Include="Views\Partials\TypedGrid\Rows\TwoColumnCardDeck.cshtml" />
     <Content Include="Views\Partials\TypedGrid\Sections\Default.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -464,7 +453,9 @@
       <Name>UmbracoPoc.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Partials\TypedGrid\Editors\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

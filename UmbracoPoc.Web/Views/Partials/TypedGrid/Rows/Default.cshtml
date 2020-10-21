@@ -1,6 +1,4 @@
-﻿@using BlueLeet.UComponents.Core
-@using Newtonsoft.Json.Linq
-@using Skybrud.Umbraco.GridData
+﻿@using Skybrud.Umbraco.GridData
 @using Skybrud.Umbraco.GridData.Extensions
 
 @inherits UmbracoViewPage<GridRow>
@@ -18,11 +16,11 @@
                         {
                             switch (control.Editor.Alias)
                             {
-                                case UComponentsConstants.GridEditors.ImageAndTextAlias:
+                                @*case UComponentsConstants.GridEditors.ImageAndTextAlias:
                                     //@Html.RenderGridControl(control)
                                     //@Html.RenderGridControl(control, "ImageText")
                                     @Html.RenderGridControl(control, "TypedGrid/Editors/BlueLeet.UComponents/ImageText")
-                                    break;
+                                    break;*@
                                 default:
                                     @Html.RenderGridControl(control)
                                     break;
