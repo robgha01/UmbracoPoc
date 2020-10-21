@@ -1,11 +1,11 @@
 ﻿@using UmbracoPoc.Core.Macros
-@using BlueLeet.UCodeFirst.Macros
+@using UmbracoPoc.Core
 
-@inherits Umbraco.Web.Macros.PartialViewMacroPage<Jumbotron>
+@inherits PartialViewMacroPage<Jumbotron>
 
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-        <h1 class="heading display-3 animated fadeInDown">@Macro.Heading</h1>
-        <p class="lead animated fadeIn">@Macro.Text</p>
+        <h1 class="heading display-3 animated fadeInDown">@Model.MacroParameters[nameof(Jumbotron.Heading).ToLower()]</h1>
+        <p class="lead animated fadeIn">@Model.MacroParameters[nameof(Jumbotron.Text).ToLower()]</p>
     </div>
 </div>

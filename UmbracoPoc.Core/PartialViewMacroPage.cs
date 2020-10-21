@@ -1,8 +1,11 @@
-﻿using System;
+﻿using BlueLeet.UCodeFirst.Macros;
+using BlueLeet.UCodeFirst.Proxy.Abstraction;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace UmbracoPoc.Core
 {
@@ -22,7 +25,6 @@ namespace UmbracoPoc.Core
         /// <summary>
         /// Gets the typed macro model.
         /// </summary>
-        [UsedImplicitly]
         public T Macro
         {
             get
