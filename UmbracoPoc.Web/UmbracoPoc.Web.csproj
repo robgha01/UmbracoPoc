@@ -371,6 +371,8 @@
     <Content Include="App_Plugins\tooorangey.EditorNotes\RichTextPreValueEditor.controller.js" />
     <Content Include="App_Plugins\tooorangey.EditorNotes\RichTextPreValueEditor.html" />
     <Content Include="Config\BlueLeet\uCodeFirst.config" />
+    <Content Include="Config\Directory\en-US.xml" />
+    <Content Include="Config\Directory\sv-SE.xml" />
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="Config\Lang\cs-CZ.user.xml" />
     <Content Include="Config\Lang\da-DK.user.xml" />
@@ -439,6 +441,7 @@
       <Name>UmbracoPoc.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
