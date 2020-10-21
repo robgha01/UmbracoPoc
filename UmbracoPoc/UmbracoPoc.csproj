@@ -47,20 +47,17 @@
     <Reference Include="AngleSharp, Version=0.9.9.0, Culture=neutral, PublicKeyToken=e83494dcdc6d31ea, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\AngleSharp.0.9.11\lib\net45\AngleSharp.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.Common, Version=0.4.56.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Common.0.4.57\lib\net45\BlueLeet.Common.dll</HintPath>
+    <Reference Include="BlueLeet.Common, Version=0.5.7.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Common.0.5.7\lib\net472\BlueLeet.Common.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.Core, Version=0.5.34.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Core.0.5.35\lib\net45\BlueLeet.Core.dll</HintPath>
+    <Reference Include="BlueLeet.Core, Version=0.5.69.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Core.0.5.69\lib\net472\BlueLeet.Core.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.Search.Core, Version=0.1.43.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Search.Core.0.1.44\lib\net45\BlueLeet.Search.Core.dll</HintPath>
+    <Reference Include="BlueLeet.UCodeFirst, Version=0.20.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UCodeFirst.Core.0.20.1\lib\net472\BlueLeet.UCodeFirst.dll</HintPath>
     </Reference>
-    <Reference Include="BlueLeet.UCodeFirst, Version=0.20.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UCodeFirst.Core.0.20.0\lib\net472\BlueLeet.UCodeFirst.dll</HintPath>
-    </Reference>
-    <Reference Include="BlueLeet.UWeb, Version=0.1.52.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UWeb.0.1.53\lib\net45\BlueLeet.UWeb.dll</HintPath>
+    <Reference Include="BlueLeet.UWeb, Version=0.1.69.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.UWeb.0.1.69\lib\net45\BlueLeet.UWeb.dll</HintPath>
     </Reference>
     <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Castle.Core.4.0.0\lib\net45\Castle.Core.dll</HintPath>
@@ -70,9 +67,6 @@
     </Reference>
     <Reference Include="ClientDependency.Core.Mvc, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\ClientDependency-Mvc5.1.9.3\lib\net45\ClientDependency.Core.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Confuser.Runtime, Version=1.0.0.45, Culture=neutral, PublicKeyToken=5fbc98a9d8494c64, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\BlueLeet.Search.Core.0.1.44\lib\net45\Confuser.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Contrib.Regex, Version=2.9.4.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Lucene.Net.Contrib.2.9.4.1\lib\net40\Contrib.Regex.dll</HintPath>
@@ -240,11 +234,11 @@
     <Reference Include="ServiceStack.Text, Version=4.0.44.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\ServiceStack.Text.4.0.44\lib\net40\ServiceStack.Text.dll</HintPath>
     </Reference>
-    <Reference Include="Skybrud.Essentials, Version=1.0.7.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Skybrud.Essentials.1.0.7\lib\net45\Skybrud.Essentials.dll</HintPath>
+    <Reference Include="Skybrud.Essentials, Version=1.1.21.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Skybrud.Essentials.1.1.21\lib\net47\Skybrud.Essentials.dll</HintPath>
     </Reference>
-    <Reference Include="Skybrud.Umbraco.GridData, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Skybrud.Umbraco.GridData.2.0.2\lib\net45\Skybrud.Umbraco.GridData.dll</HintPath>
+    <Reference Include="Skybrud.Umbraco.GridData, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\Skybrud.Umbraco.GridData.3.0.1\lib\net472\Skybrud.Umbraco.GridData.dll</HintPath>
     </Reference>
     <Reference Include="SmartFormat, Version=2.0.0.0, Culture=neutral, PublicKeyToken=568866805651201f, processorArchitecture=MSIL">
       <HintPath>..\..\..\Users\rober\AppData\Roaming\NuGet\packages\SmartFormat.NET.2.0.0.0\lib\net45\SmartFormat.dll</HintPath>
@@ -373,6 +367,7 @@
     <Content Include="app_plugins\tooorangey.EditorNotes\NotesModePreValueEditor.html" />
     <Content Include="app_plugins\tooorangey.EditorNotes\RichTextPreValueEditor.controller.js" />
     <Content Include="app_plugins\tooorangey.EditorNotes\RichTextPreValueEditor.html" />
+    <Content Include="Config\BlueLeet\uCodeFirst.config" />
     <Content Include="Config\grid.editors.config.js" />
     <Content Include="Config\Lang\cs-CZ.user.xml" />
     <Content Include="Config\Lang\da-DK.user.xml" />
@@ -401,13 +396,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app_plugins\tooorangey.EditorNotes\package.manifest" />
-    <Content Include="Config\BlueLeet\search.config" />
-    <Content Include="app_plugins\BlueLeet\package.manifest" />
-    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Vendors.js.map" />
-    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.js.map" />
-    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Initial.js.map" />
-    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Common.js.map" />
-    <Content Include="Config\BlueLeet\uCodeFirst.config" />
     <Content Include="Config\imageprocessor\security.config" />
     <Content Include="Config\imageprocessor\processing.config" />
     <Content Include="Config\imageprocessor\cache.config" />
@@ -419,6 +407,11 @@
     <Content Include="Config\HealthChecks.config" />
     <Content Include="Config\ClientDependency.config" />
     <Content Include="Config\BackOfficeTours\getting-started.json" />
+    <Content Include="app_plugins\BlueLeet\package.manifest" />
+    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Vendors.js.map" />
+    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.js.map" />
+    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Initial.js.map" />
+    <Content Include="app_plugins\BlueLeet\assets\js\BlueLeet.UCodeFirst.Common.js.map" />
     <None Include="packages.config" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Partials\Grid\Editors\Textstring.cshtml" />
