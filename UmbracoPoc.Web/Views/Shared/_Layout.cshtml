@@ -47,7 +47,7 @@
             <footer>Footer</footer>
         }*@
 
-    @Html.GetTypedGridHtml(Model.Content, "GridFrontPage", "ContentArea")
+    @Html.GetGridHtml(Model.Content, "GridFrontPage", "ContentArea")
 
     @RenderBody()
     @RenderSection("scripts", false)
