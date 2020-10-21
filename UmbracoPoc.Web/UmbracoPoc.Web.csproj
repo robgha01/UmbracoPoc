@@ -431,6 +431,15 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_viewStart.cshtml" />
     <Content Include="Views\Start.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Bootstrap2-Fluid.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Bootstrap2.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Bootstrap3-Fluid.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Bootstrap3.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\ContentArea.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Fanoe.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Rows\BlueLeetDefault.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Rows\Default.cshtml" />
+    <Content Include="Views\Partials\TypedGrid\Sections\Default.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -444,7 +453,9 @@
       <Name>UmbracoPoc.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\Partials\TypedGrid\Editors\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
